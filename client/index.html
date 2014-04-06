@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Lab 2014 - Lesson 6</title>
+		<link rel="stylesheet" href="highscore.css"/>
+	</head>
+	<body>
+		<h1>Highscore Board</h1>
+
+		<h2>Technion Web Lab 2014</h2>
+
+		<div id="highscore-box">
+			<h3>
+				Highscore Table
+			</h3>
+
+			<div class="loading">
+				<img src="ajax-loader.gif"/> Loading high score data...
+			</div>
+		</div>
+
+		<div class="score-form">
+			<h3> Add new score </h3>
+			<label>
+				Name:
+				<input id="score-input-name" type="text"/>
+			</label>
+
+			<label>
+				Score:
+				<input id="score-input-score" type="number"/>
+			</label>
+
+			<button id="score-button-add">Add score</button>
+		</div>
+
+		<footer>
+			Copyright (C) 2014 Uri Shaked. Licensed under the MIT License.
+		</footer>
+
+		<script src="highscore.js"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "lesson6",
+  "version": "1.0.0",
+  "description": "Lesson 6 - Client/Server demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weblab2014/lesson6"
+  },
+  "author": "Uri Shaked",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weblab2014/lesson6/issues"
+  },
+  "homepage": "https://github.com/weblab2014/lesson6",
+  "dependencies": {
+    "express": "3.5.1"
+  }
+}

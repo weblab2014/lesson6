@@ -1,0 +1,59 @@
+/* Client/Server Demo Code
+ * Technion Web Lab 2014
+ * Copyright (C) 2014, Uri Shaked. Code released under the MIT License.
+ */
+
+body {
+	font-family: cursive;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+h2 {
+	color: silver;
+	margin-top: 0;
+}
+
+#highscore-box {
+	border: 1px solid black;
+	max-width: 500px;
+	text-align: center;
+}
+
+#highscore-box h3 {
+	background: #ccc;
+	margin: 0;
+	padding: 4px;
+}
+
+#highscore-box .loading {
+	margin-bottom: 18px;
+}
+
+#highscore-box .score-entry {
+	line-height: 40px;
+	border-bottom: 1px solid gray;
+	min-height: 40px;
+	padding: 0 8px;
+}
+
+#highscore-box .score-entry .score-name {
+	float: left;
+}
+
+#highscore-box .score-entry .score-score {
+	float: right;
+}
+
+.no-score-message {
+	margin: 20px 0;
+	color: green;
+}
+
+footer {
+	margin-top: 100px;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
