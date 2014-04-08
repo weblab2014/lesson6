@@ -6,7 +6,7 @@
 var express = require('express');
 
 var LISTEN_PORT = process.env.OPENSHIFT_NODEJS_PORT || 8296;
-var LISTEN_IP = process.env.OPENSHIFT_NODEJS_PORT || '127.0.0.1';
+var LISTEN_IP = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 /* Create an express application. `app` is a common variable name used in many express.js tutorials */
 var app = express();
