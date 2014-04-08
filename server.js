@@ -5,7 +5,8 @@
 
 var express = require('express');
 
-var LISTEN_PORT = 8296;
+var LISTEN_PORT = process.env.OPENSHIFT_INTERNAL_PORT || 8296;
+var LISTEN_IP = process.env.OPENSHIFT_INTERNAL_IP || '127.0.0.1';
 
 /* Create an express application. `app` is a common variable name used in many express.js tutorials */
 var app = express();
@@ -62,6 +63,6 @@ app.post('/highscore/add', function (req, res) {
 /*
  * app.listen() starts the HTTP server on the given TCP port.
  */
-app.listen(LISTEN_PORT, function () {
+app.listen(LISTEN_PORT, LISTEN_IP, function () {
 	console.log('Listening on ' + LISTEN_PORT + '...');
 });
